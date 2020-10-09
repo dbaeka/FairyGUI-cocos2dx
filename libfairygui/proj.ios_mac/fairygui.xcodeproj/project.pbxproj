@@ -58,7 +58,6 @@
 		445402E11FB3E9E400869375 /* UIObjectFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445402A21FB3E9E400869375 /* UIObjectFactory.cpp */; };
 		445402E21FB3E9E400869375 /* UIPackage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445402A41FB3E9E400869375 /* UIPackage.cpp */; };
 		445402E41FB3E9E400869375 /* ToolSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445402AA1FB3E9E400869375 /* ToolSet.cpp */; };
-		445402E51FB3E9E400869375 /* UBBParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445402AC1FB3E9E400869375 /* UBBParser.cpp */; };
 		445402E61FB3E9E400869375 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445402AE1FB3E9E400869375 /* Window.cpp */; };
 		445402FB1FB3EFFA00869375 /* libfairygui_MAC.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 445402FA1FB3EFFA00869375 /* libfairygui_MAC.hpp */; };
 		445402FD1FB3EFFA00869375 /* libfairygui_MACPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 445402FC1FB3EFFA00869375 /* libfairygui_MACPriv.hpp */; };
@@ -169,7 +168,106 @@
 		7DCFF2D6237E40370031E954 /* GTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCFF2D1237E40370031E954 /* GTree.h */; };
 		7DCFF2D7237E40370031E954 /* GTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFF2D2237E40370031E954 /* GTree.cpp */; };
 		7DCFF2D8237E40370031E954 /* GTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DCFF2D2237E40370031E954 /* GTree.cpp */; };
+		BAD5209F2530805D00AB6B43 /* UBBParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 445402AC1FB3E9E400869375 /* UBBParser.cpp */; };
+		BAD520A82530835700AB6B43 /* HtmlObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD520A22530835700AB6B43 /* HtmlObject.cpp */; };
+		BAD520A92530835700AB6B43 /* HtmlElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD520A52530835700AB6B43 /* HtmlElement.cpp */; };
+		BAD520AA2530835700AB6B43 /* HtmlParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD520A72530835700AB6B43 /* HtmlParser.cpp */; };
+		BAD520AD253083FA00AB6B43 /* GLoader3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD520AB253083FA00AB6B43 /* GLoader3D.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA67D4A1253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12913E6ED61B4FA2A9671B9E;
+			remoteInfo = cocos2d;
+		};
+		BA67D4A3253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 015C65C98D29480E922BDDF3;
+			remoteInfo = ext_clipper;
+		};
+		BA67D4A5253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 13EB8FD698944A978465D3E2;
+			remoteInfo = ext_convertUTF;
+		};
+		BA67D4A7253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6208FCA28FA4AB1ACE043AC;
+			remoteInfo = ext_edtaa3func;
+		};
+		BA67D4A9253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D96A97CBA9A0483380AB964F;
+			remoteInfo = ext_md5;
+		};
+		BA67D4AB253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E3473DB66DCC4E7B84433360;
+			remoteInfo = ext_poly2tri;
+		};
+		BA67D4AD253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BB18645A3D649D7B93DF7C8;
+			remoteInfo = ext_recast;
+		};
+		BA67D4AF253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA8E39BEE55D4A8E993D8FDE;
+			remoteInfo = ext_tinyxml2;
+		};
+		BA67D4B1253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 91976C10C6A84036942728D4;
+			remoteInfo = ext_unzip;
+		};
+		BA67D4B3253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB464F7B87B74DFD8F107A32;
+			remoteInfo = ext_xxhash;
+		};
+		BA67D4B5253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F7F992D08088477A8D167592;
+			remoteInfo = ext_xxtea;
+		};
+		BA67D4B7253074D500806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FDB300C23F6347B28B689E84;
+			remoteInfo = external;
+		};
+		BA67D4B9253074E400806B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6610CC92114F9E92FA745E;
+			remoteInfo = cocos2d;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4454021E1FB3E8D500869375 /* CopyFiles */ = {
@@ -194,7 +292,7 @@
 		445402421FB3E9E400869375 /* FUILabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FUILabel.cpp; sourceTree = "<group>"; };
 		445402431FB3E9E400869375 /* FUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUILabel.h; sourceTree = "<group>"; };
 		445402441FB3E9E400869375 /* FUIRichText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FUIRichText.cpp; sourceTree = "<group>"; };
-		445402451FB3E9E400869375 /* FUIRichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIRichText.h; sourceTree = "<group>"; };
+		445402451FB3E9E400869375 /* FUIRichText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUIRichText.h; sourceTree = "<group>"; wrapsLines = 0; };
 		445402461FB3E9E400869375 /* FUISprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FUISprite.cpp; sourceTree = "<group>"; };
 		445402471FB3E9E400869375 /* FUISprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUISprite.h; sourceTree = "<group>"; };
 		445402481FB3E9E400869375 /* DragDropManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DragDropManager.cpp; sourceTree = "<group>"; };
@@ -340,6 +438,15 @@
 		7DCFF2D0237E40370031E954 /* GTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTreeNode.h; sourceTree = "<group>"; };
 		7DCFF2D1237E40370031E954 /* GTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTree.h; sourceTree = "<group>"; };
 		7DCFF2D2237E40370031E954 /* GTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GTree.cpp; sourceTree = "<group>"; };
+		BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "../../FairyGUI/ios-build/engine/cocos/core/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
+		BAD520A22530835700AB6B43 /* HtmlObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlObject.cpp; sourceTree = "<group>"; };
+		BAD520A32530835700AB6B43 /* HtmlElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlElement.h; sourceTree = "<group>"; };
+		BAD520A42530835700AB6B43 /* HtmlObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlObject.h; sourceTree = "<group>"; };
+		BAD520A52530835700AB6B43 /* HtmlElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlElement.cpp; sourceTree = "<group>"; };
+		BAD520A62530835700AB6B43 /* HtmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlParser.h; sourceTree = "<group>"; };
+		BAD520A72530835700AB6B43 /* HtmlParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HtmlParser.cpp; sourceTree = "<group>"; };
+		BAD520AB253083FA00AB6B43 /* GLoader3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLoader3D.cpp; sourceTree = "<group>"; };
+		BAD520AC253083FA00AB6B43 /* GLoader3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLoader3D.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +470,7 @@
 		445402171FB3E8D500869375 = {
 			isa = PBXGroup;
 			children = (
+				BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */,
 				445402381FB3E9E400869375 /* Classes */,
 				445402EC1FB3EDD500869375 /* libfairygui iOS */,
 				445402F91FB3EFFA00869375 /* libfairygui MAC */,
@@ -382,6 +490,8 @@
 		445402381FB3E9E400869375 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BAD520AB253083FA00AB6B43 /* GLoader3D.cpp */,
+				BAD520AC253083FA00AB6B43 /* GLoader3D.h */,
 				44905A4F1FC3CCCD00C33C88 /* controller_action */,
 				445402391FB3E9E400869375 /* Controller.cpp */,
 				4454023A1FB3E9E400869375 /* Controller.h */,
@@ -537,6 +647,7 @@
 		445402A61FB3E9E400869375 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				BAD520A12530835700AB6B43 /* html */,
 				7D0EA2C22373EC5C008942A9 /* ByteBuffer.cpp */,
 				7D0EA2C32373EC5C008942A9 /* ByteBuffer.h */,
 				44905A4A1FC2D5E600C33C88 /* WeakPtr.cpp */,
@@ -603,6 +714,38 @@
 			path = tween;
 			sourceTree = "<group>";
 		};
+		BA67D491253074D500806B51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA67D4A2253074D500806B51 /* libcocos2d.a */,
+				BA67D4A4253074D500806B51 /* libext_clipper.a */,
+				BA67D4A6253074D500806B51 /* libext_convertUTF.a */,
+				BA67D4A8253074D500806B51 /* libext_edtaa3func.a */,
+				BA67D4AA253074D500806B51 /* libext_md5.a */,
+				BA67D4AC253074D500806B51 /* libext_poly2tri.a */,
+				BA67D4AE253074D500806B51 /* libext_recast.a */,
+				BA67D4B0253074D500806B51 /* libext_tinyxml2.a */,
+				BA67D4B2253074D500806B51 /* libext_unzip.a */,
+				BA67D4B4253074D500806B51 /* libext_xxhash.a */,
+				BA67D4B6253074D500806B51 /* libext_xxtea.a */,
+				BA67D4B8253074D500806B51 /* libexternal.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAD520A12530835700AB6B43 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				BAD520A22530835700AB6B43 /* HtmlObject.cpp */,
+				BAD520A32530835700AB6B43 /* HtmlElement.h */,
+				BAD520A42530835700AB6B43 /* HtmlObject.h */,
+				BAD520A52530835700AB6B43 /* HtmlElement.cpp */,
+				BAD520A62530835700AB6B43 /* HtmlParser.h */,
+				BAD520A72530835700AB6B43 /* HtmlParser.cpp */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -644,6 +787,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				BA67D4BA253074E400806B51 /* PBXTargetDependency */,
 			);
 			name = "libfairygui iOS";
 			productName = libfairygui;
@@ -673,7 +817,7 @@
 		445402181FB3E8D500869375 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					4454021F1FB3E8D500869375 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -694,6 +838,12 @@
 			mainGroup = 445402171FB3E8D500869375;
 			productRefGroup = 445402211FB3E8D500869375 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BA67D491253074D500806B51 /* Products */;
+					ProjectRef = BA67D490253074D500806B51 /* cocos2d_libs.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4454021F1FB3E8D500869375 /* libfairygui iOS */,
@@ -701,6 +851,93 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BA67D4A2253074D500806B51 /* libcocos2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d.a;
+			remoteRef = BA67D4A1253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4A4253074D500806B51 /* libext_clipper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_clipper.a;
+			remoteRef = BA67D4A3253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4A6253074D500806B51 /* libext_convertUTF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_convertUTF.a;
+			remoteRef = BA67D4A5253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4A8253074D500806B51 /* libext_edtaa3func.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_edtaa3func.a;
+			remoteRef = BA67D4A7253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4AA253074D500806B51 /* libext_md5.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_md5.a;
+			remoteRef = BA67D4A9253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4AC253074D500806B51 /* libext_poly2tri.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_poly2tri.a;
+			remoteRef = BA67D4AB253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4AE253074D500806B51 /* libext_recast.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_recast.a;
+			remoteRef = BA67D4AD253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4B0253074D500806B51 /* libext_tinyxml2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_tinyxml2.a;
+			remoteRef = BA67D4AF253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4B2253074D500806B51 /* libext_unzip.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_unzip.a;
+			remoteRef = BA67D4B1253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4B4253074D500806B51 /* libext_xxhash.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_xxhash.a;
+			remoteRef = BA67D4B3253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4B6253074D500806B51 /* libext_xxtea.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libext_xxtea.a;
+			remoteRef = BA67D4B5253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BA67D4B8253074D500806B51 /* libexternal.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libexternal.a;
+			remoteRef = BA67D4B7253074D500806B51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4454021C1FB3E8D500869375 /* Sources */ = {
@@ -712,11 +949,13 @@
 				44905A4C1FC2D5E600C33C88 /* WeakPtr.cpp in Sources */,
 				445402B51FB3E9E400869375 /* FUIRichText.cpp in Sources */,
 				445402E21FB3E9E400869375 /* UIPackage.cpp in Sources */,
+				BAD520A92530835700AB6B43 /* HtmlElement.cpp in Sources */,
 				445402DE1FB3E9E400869375 /* ScrollPane.cpp in Sources */,
 				7D0EA2DD2373EFF3008942A9 /* GTweener.cpp in Sources */,
 				445402B71FB3E9E400869375 /* DragDropManager.cpp in Sources */,
 				7DCFF2C9237E3F410031E954 /* GearDisplay2.cpp in Sources */,
 				445402D11FB3E9E400869375 /* GObjectPool.cpp in Sources */,
+				BAD520AD253083FA00AB6B43 /* GLoader3D.cpp in Sources */,
 				7D0EA2E82373EFF4008942A9 /* GTween.cpp in Sources */,
 				445402C01FB3E9E400869375 /* GearAnimation.cpp in Sources */,
 				44905A6B1FC4367600C33C88 /* FUIInput.cpp in Sources */,
@@ -727,6 +966,7 @@
 				7DCFF2D7237E40370031E954 /* GTree.cpp in Sources */,
 				44905A591FC3CCCD00C33C88 /* ControllerAction.cpp in Sources */,
 				445402C11FB3E9E400869375 /* GearBase.cpp in Sources */,
+				BAD5209F2530805D00AB6B43 /* UBBParser.cpp in Sources */,
 				445402DF1FB3E9E400869375 /* Transition.cpp in Sources */,
 				445402D01FB3E9E400869375 /* GObject.cpp in Sources */,
 				445402D61FB3E9E400869375 /* GSlider.cpp in Sources */,
@@ -738,6 +978,7 @@
 				445402C21FB3E9E400869375 /* GearColor.cpp in Sources */,
 				445402E41FB3E9E400869375 /* ToolSet.cpp in Sources */,
 				445402D41FB3E9E400869375 /* GRoot.cpp in Sources */,
+				BAD520AA2530835700AB6B43 /* HtmlParser.cpp in Sources */,
 				445402D71FB3E9E400869375 /* GTextField.cpp in Sources */,
 				445402C71FB3E9E400869375 /* GearText.cpp in Sources */,
 				7D0EA2D82373EFF3008942A9 /* TweenManager.cpp in Sources */,
@@ -753,12 +994,12 @@
 				445402C91FB3E9E400869375 /* GGraph.cpp in Sources */,
 				44905A561FC3CCCD00C33C88 /* ChangePageAction.cpp in Sources */,
 				445402D31FB3E9E400869375 /* GRichTextField.cpp in Sources */,
+				BAD520A82530835700AB6B43 /* HtmlObject.cpp in Sources */,
 				445402CB1FB3E9E400869375 /* GImage.cpp in Sources */,
 				7D0EA2ED2373F172008942A9 /* TranslationHelper.cpp in Sources */,
 				7DCFF2D3237E40370031E954 /* GTreeNode.cpp in Sources */,
 				445402C31FB3E9E400869375 /* GearDisplay.cpp in Sources */,
 				7D0EA2C42373EC5C008942A9 /* ByteBuffer.cpp in Sources */,
-				445402E51FB3E9E400869375 /* UBBParser.cpp in Sources */,
 				445402B91FB3E9E400869375 /* HitTest.cpp in Sources */,
 				445402C41FB3E9E400869375 /* GearIcon.cpp in Sources */,
 				445402BD1FB3E9E400869375 /* GButton.cpp in Sources */,
@@ -864,6 +1105,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BA67D4BA253074E400806B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cocos2d;
+			targetProxy = BA67D4B9253074E400806B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		445402271FB3E8D500869375 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -888,6 +1137,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -923,7 +1173,7 @@
 					"$(SRCROOT)/../../Examples/cocos2d/external/glfw3/include/mac",
 					"$(SRCROOT)/../Classes",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -953,6 +1203,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -981,7 +1232,7 @@
 					"$(SRCROOT)/../../Examples/cocos2d/external/glfw3/include/mac",
 					"$(SRCROOT)/../Classes",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -992,6 +1243,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../Examples/cocos2d",
+					"$(SRCROOT)/../../Examples/cocos2d/cocos",
+					"$(SRCROOT)/../../Examples/cocos2d/cocos/audio/include",
+					"$(SRCROOT)/../../Examples/cocos2d/external",
+					"$(SRCROOT)/../../Examples/cocos2d/extensions",
+					"$(SRCROOT)/../../Examples/cocos2d/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/../../Examples/cocos2d/external/glfw3/include/mac",
+					"$(SRCROOT)/../Classes",
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/Classes,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/audio/include,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/extensions,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/platform,
+					"/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/editor-support",
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/base,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/platform/ios,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "libfairygui iOS";
 				SKIP_INSTALL = YES;
@@ -1002,6 +1282,35 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../Examples/cocos2d",
+					"$(SRCROOT)/../../Examples/cocos2d/cocos",
+					"$(SRCROOT)/../../Examples/cocos2d/cocos/audio/include",
+					"$(SRCROOT)/../../Examples/cocos2d/external",
+					"$(SRCROOT)/../../Examples/cocos2d/extensions",
+					"$(SRCROOT)/../../Examples/cocos2d/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/../../Examples/cocos2d/external/glfw3/include/mac",
+					"$(SRCROOT)/../Classes",
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/Classes,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/audio/include,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/extensions,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/platform,
+					"/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/editor-support",
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/base,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/cocos/platform/ios,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..,
+					/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.,
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "libfairygui iOS";
 				SKIP_INSTALL = YES;

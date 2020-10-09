@@ -1,0 +1,2854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8977AEC588E242E6A76CE604 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6BE74B05CE05444F97972F33 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BC21A502AB014362877D94FA /* CMake Rules */,
+			);
+			dependencies = (
+				D3F45088FF764FAAB6940FA5 /* PBXTargetDependency */,
+				17025EA0D0A3446C9EADEEDE /* PBXTargetDependency */,
+				43B3A2CF1DF84B91AD047E5F /* PBXTargetDependency */,
+				AC5BC32D980E42838DB1E1CB /* PBXTargetDependency */,
+				1157BB1679894D058FEEC2BB /* PBXTargetDependency */,
+				AD5340C8C157414FAEEC108B /* PBXTargetDependency */,
+				BAA4C0D31CA44E0582E2FB50 /* PBXTargetDependency */,
+				32C9D531460742AEA78C71EF /* PBXTargetDependency */,
+				44641146725546E39AACBF37 /* PBXTargetDependency */,
+				7CC27D5013464C82A6FAC611 /* PBXTargetDependency */,
+				9AC682190CD84AD6856811F6 /* PBXTargetDependency */,
+				2B4424F74AC74D5AA8DBC2EE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5CE01208DF6E46789DAD6597 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				765CA832788F49579E4C6BDA /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		073D17038A294E0EB7AB7787 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 583B4371AA5D4B329B0BA97A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		0FCA221D8AF34230B6513EAB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 48049C374ED64A1BB2CEF855 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/xxhash.c */; };
+		19D3F5E1C1EF4D6EA94B1DA5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 76AECF9FCBAD49DCA97FCACF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		1DEFCD1CF2B3484AB6F489C8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = B2311A0864484303BB6999A8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		22C2B7984F694497B05E8EC5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 6265BD58B17B41AA81537C1E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */; };
+		2575CDC5AF914E1994629D2E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 0D7C42CC5A944B0BBC7141D3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/common/shapes.cc */; };
+		259687495B8F48D18F365D86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 13CE9C55B051421D9E312F8D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		2C86A29B288A48E986C4C212 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F98378A81A4044FE8E86AB7D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+		2FD992E1494B4F26A86425DA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = E08FE8D041B34E889B861A2D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		4282052B5D364590AF5FFE5B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4C1D46C2A94F44E2A2F64FC5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		4865F09CD17F49BF87ACB592 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 42231B9DA8DD4F12B590AD69 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/CMakeLists.txt */; };
+		48EC961E17284E44B3AB02A1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 840334293A7E41C19D570D54 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		4CF08404FE1D4279BBDB53D3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = A6C8742FEC734364A3547218 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/unzip.cpp */; };
+		5029D0DEE5C643D58B09C41A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3F3B64FB2EAA45B1861EDE42 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		5205C01A543C4840832A8F9F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7627706292084D698D4C705B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/CMakeLists.txt */; };
+		62EE000A8E814262ABF9A782 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 1BF0F923B0304FA7ADD933B0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */; };
+		6347F06EF9D947E9AA29AF8D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 3FD334C817C141B882D0803D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		643B9AF201C9427B8B411320 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B8AC7D1DE2414423B7B12E86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		6548119CC1BC4F45A7AF7063 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 07A70BFC392B42C5B3B9FEDD /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		68712F6B3D1E4C3CB5BE4813 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = F3D04CC87DE049CEAE76DD86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi.cpp */; };
+		698EADEE4EF34B7280BF5378 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 4A57DB5C75574035A7D1E1AA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		69A5D28E4913442194161E37 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 2AF1796E971E4960BCE8A381 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		74181E6EEB9E48E39EF66C39 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = C68E8602015A4E1DB33F16C5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		78F66FA849484DE48C178F6B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 1D05C77B019C4AAB927A0311 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		7D5870CF800E4CF0ABC33E43 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = BC81DE8A64D747A28A91C476 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		7DC2EE653154424CAB49A279 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = DB48EBF1164F41F380147D70 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		83BB003006934DD1A900B8B0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 8122E260074145279DD3DBA9 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/clipper.cpp */; };
+		89AED4384CC449F1B3D26A1A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 1EE12777FA034EA1B189CBD6 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		89E545FEA9F14ED0821A1521 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 25CFA8B1307F4CA2A6270C8C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/empty.cpp */; };
+		8EBB89AC45E748F0BE4C73F8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 10BBBD88C47648FF93515831 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		9685DD0ECF704B8682DE04B7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F59BD0A6298E4645844C5740 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		974CA4C557D54124B8AA8363 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 9EB4B5ED748849B09F1F9520 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		9E083C216C1346EA802CC4D5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 30F728CFF05E491DB10EEE3A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		A01F8479EF7E42AE8448A9DB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2949B69628164A6B8AE5D515 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+		A6FCCB8E92C74B87985EA456 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 4B6622AF503D4E829BB632DF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		AD3444523E04414DA2CFD111 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = A9C079A84740428CBFB9260C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		AFCBFB6AAF6647A8A60AC7A9 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = F0BA52C9A9EB4F1FAA88EABA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		BA40C4CB2861480BA5E506DF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2228A2878E2A4017B0E65219 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		BF7C9E4AC1C141CCBDE42AD1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DE532E4C291245B0ACAB0062 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		C0A838403AE647EFA3ECF873 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 83841E329EFB4371B58373C1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		C0CBFC9008BA4D599BDA2B89 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 961181B6647341EF944BFA52 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		C34113C0AAD74E43BA096674 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 45A727692B05441E8EB887F4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		C5CC24C2C3C34D7EBA1BC869 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 2322B739D751474390B5F165 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		C9A04C573DF74E679C7A7B94 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F8FBB7DAF91F44CEBF74F24F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/CMakeLists.txt */; };
+		CF4FF6D5FF7C4413B493B45C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 8C51FC8240C64086B3B5C558 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/xxtea.cpp */; };
+		CFF4598691CE4A3BBF777BFB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 269688269BBB40308BC26154 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		D0765DF188E1464D97ECBE6F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BB5EDEB777E64523A78C4400 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/CMakeLists.txt */; };
+		D6D62B21A6684FF187418A72 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 08F17D978CB841D695ACC318 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/CMakeLists.txt */; };
+		D716DB9F226343199FF42664 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = EE0F73BC404F4BFEA676E516 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */; };
+		DBDAD454143B4F3CB76E92B4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 35C14181F82F48FAAD4EE1A1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */; };
+		DC1FCB881B544CD5A22F958D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = CC65CE55C5FB4CFE831D15A7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		E1CEA91A420E423F8C583924 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 7F15D2195780428F9A88812B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/md5.c */; };
+		E854E56B17E4482286702A32 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1BEA6FAA82214FE9A60B7912 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/CMakeLists.txt */; };
+		E8FAE5E169964B9582B42BA7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 83D77503B89341EDBA6BAF98 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		EC33DFF3F0EC47B9B747D3AB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 30B0372999C84B0F88A5A41C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		F95F4CE0B1F64E86B46432E7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 10D15B42E7F94153B94C875E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		28225B8CEA4945B2B632CBDC /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		3397AC81ADDB4C86A7E19ED0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F579199EBB52434D8F5E1891 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		FC33110ADEED4D47A8247E4E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0085488772834BD5B02C808C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D981981079E4DE3B6AFFDD4;
+			remoteInfo = ext_tinyxml2;
+		};
+		132E0E3F6DA241D3B45B4EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C73A0356B24D3D8043C6DD;
+			remoteInfo = ZERO_CHECK;
+		};
+		359BC3A4FBA74533A80D741F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A987952D3DDC47F7ABDF6608;
+			remoteInfo = ext_edtaa3func;
+		};
+		42409574C72F4652BD8123C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6D610680CE4958A6299C92;
+			remoteInfo = ext_clipper;
+		};
+		521C4CF6BB2E4BFE918DC56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C7FAF36CC94EA1A6F9481F;
+			remoteInfo = ext_unzip;
+		};
+		52AB28FB37E941D2997A4E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7C7FAF36CC94EA1A6F9481F;
+			remoteInfo = ext_unzip;
+		};
+		57B2D71B893448F1BC9DF254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62466E94C17E465C8E78DB5F;
+			remoteInfo = ext_md5;
+		};
+		58F207B07F234CB9A7BF9EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B1B16DFC514F82AC4C6B8F;
+			remoteInfo = ext_recast;
+		};
+		6060C2FC83A4459F87DBF37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF82BD3CBCB496785616784;
+			remoteInfo = ext_xxhash;
+		};
+		6B7FD136732B43CDA7E10B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C73A0356B24D3D8043C6DD;
+			remoteInfo = ZERO_CHECK;
+		};
+		86398DE7C01246FB8EF394FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A6D610680CE4958A6299C92;
+			remoteInfo = ext_clipper;
+		};
+		8BD75861F07B47C4962A1D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D981981079E4DE3B6AFFDD4;
+			remoteInfo = ext_tinyxml2;
+		};
+		8C63B14317DE449592EB646C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A987952D3DDC47F7ABDF6608;
+			remoteInfo = ext_edtaa3func;
+		};
+		A882D21DCE064E81804778AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF27639B4A4444D8C8F57AA;
+			remoteInfo = ext_poly2tri;
+		};
+		B88562F421B94CA9A0A94188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A539FBEF9E4113BE77E690;
+			remoteInfo = ext_xxtea;
+		};
+		C775E8B717F2410FAC37BEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF1FB79179C42939F979DF4;
+			remoteInfo = external;
+		};
+		CF68917AD8544A62BAE42563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62466E94C17E465C8E78DB5F;
+			remoteInfo = ext_md5;
+		};
+		DA1EFDC81E71450B9213ADAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D817FB75337140539050B346;
+			remoteInfo = ext_convertUTF;
+		};
+		DDCC6915A71E446180199B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D817FB75337140539050B346;
+			remoteInfo = ext_convertUTF;
+		};
+		E09706D9A678450F895E924B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCF82BD3CBCB496785616784;
+			remoteInfo = ext_xxhash;
+		};
+		F8A8C11C742E41F380D1DADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B1B16DFC514F82AC4C6B8F;
+			remoteInfo = ext_recast;
+		};
+		FDE4C401A7CA42ADAA3CB27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF27639B4A4444D8C8F57AA;
+			remoteInfo = ext_poly2tri;
+		};
+		FF655BEACA614F14BE7E8C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3979987C17F44B83AFE1A11D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A539FBEF9E4113BE77E690;
+			remoteInfo = ext_xxtea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07A70BFC392B42C5B3B9FEDD /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		08F17D978CB841D695ACC318 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0D7C42CC5A944B0BBC7141D3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		10BBBD88C47648FF93515831 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		10D15B42E7F94153B94C875E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		13CE9C55B051421D9E312F8D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		1BEA6FAA82214FE9A60B7912 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1BF0F923B0304FA7ADD933B0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/CMakeFiles/external.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		1D05C77B019C4AAB927A0311 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		1EE12777FA034EA1B189CBD6 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		2228A2878E2A4017B0E65219 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2322B739D751474390B5F165 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		25CFA8B1307F4CA2A6270C8C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		269688269BBB40308BC26154 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		284219A26AF545D4913446E4 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2949B69628164A6B8AE5D515 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		2AF1796E971E4960BCE8A381 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		30B0372999C84B0F88A5A41C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		30F728CFF05E491DB10EEE3A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		35C14181F82F48FAAD4EE1A1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3787F4F955B44F56B711178E /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3B64FB2EAA45B1861EDE42 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		3FD334C817C141B882D0803D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		42231B9DA8DD4F12B590AD69 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		45A727692B05441E8EB887F4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		48049C374ED64A1BB2CEF855 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		4A57DB5C75574035A7D1E1AA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		4B6622AF503D4E829BB632DF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		4C1D46C2A94F44E2A2F64FC5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		583B4371AA5D4B329B0BA97A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		6265BD58B17B41AA81537C1E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		6352A0D36D364E6AB23D9FE4 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CBBE033080445BAF254EE1 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7627706292084D698D4C705B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		76AECF9FCBAD49DCA97FCACF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		7E112262B0E04563BAADC433 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F15D2195780428F9A88812B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		8122E260074145279DD3DBA9 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		83841E329EFB4371B58373C1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		83D77503B89341EDBA6BAF98 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		840334293A7E41C19D570D54 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		86D2C67391794007BB334A36 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C51FC8240C64086B3B5C558 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		961181B6647341EF944BFA52 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		97880F7D6162483CA185EE80 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6630AA8B2F4230B151BC91 /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB4B5ED748849B09F1F9520 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		A6C8742FEC734364A3547218 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		A9B98980B30649B080D2026C /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C079A84740428CBFB9260C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		AE9372F36C384E7C8E2DD9F0 /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2311A0864484303BB6999A8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		B8AC7D1DE2414423B7B12E86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		BB5EDEB777E64523A78C4400 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BC81DE8A64D747A28A91C476 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		C68E8602015A4E1DB33F16C5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		CC65CE55C5FB4CFE831D15A7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		DB48EBF1164F41F380147D70 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		DBF1AE396A0A4E1F935470E8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DE532E4C291245B0ACAB0062 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E08FE8D041B34E889B861A2D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		EB2E03C668D94014BC15D059 /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0F73BC404F4BFEA676E516 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		F0BA52C9A9EB4F1FAA88EABA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		F3D04CC87DE049CEAE76DD86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		F59BD0A6298E4645844C5740 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		F8FBB7DAF91F44CEBF74F24F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F98378A81A4044FE8E86AB7D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		030C7B00B10C426A89D8E40B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D7C42CC5A944B0BBC7141D3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/common/shapes.cc */,
+				13CE9C55B051421D9E312F8D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				30F728CFF05E491DB10EEE3A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				1D05C77B019C4AAB927A0311 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				45A727692B05441E8EB887F4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		086ACFD7961D4BF588E035B5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F15D2195780428F9A88812B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		08A5D35C31BF47F9B98BE610 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BF0F923B0304FA7ADD933B0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0AEBA5EDA2B0408D973ECF3D /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				AFBADF24735E4BBFB7A765CB /* Source Files */,
+				C1E56D7CDCE64ED28C02818D /* Resources */,
+				42231B9DA8DD4F12B590AD69 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		0C9AF3E33BB14036921B47AD /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				A89A3CF07C0043AB9E692489 /* Source Files */,
+				D8CAD6C4E1FB47CBA27BA29C /* Resources */,
+				BB5EDEB777E64523A78C4400 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		1B0C00A8FA7541E2A42A35F5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A57DB5C75574035A7D1E1AA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				583B4371AA5D4B329B0BA97A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2D282B3ECBA648AE97271746 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				30B0372999C84B0F88A5A41C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				83D77503B89341EDBA6BAF98 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				9EB4B5ED748849B09F1F9520 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				2AF1796E971E4960BCE8A381 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				DB48EBF1164F41F380147D70 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				F0BA52C9A9EB4F1FAA88EABA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				840334293A7E41C19D570D54 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				269688269BBB40308BC26154 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				A9C079A84740428CBFB9260C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				BC81DE8A64D747A28A91C476 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				1EE12777FA034EA1B189CBD6 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				4B6622AF503D4E829BB632DF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				E08FE8D041B34E889B861A2D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				10BBBD88C47648FF93515831 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				C68E8602015A4E1DB33F16C5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				961181B6647341EF944BFA52 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				6265BD58B17B41AA81537C1E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3A98138AA3C947B19DBAA306 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C51FC8240C64086B3B5C558 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		419C378970BC4E04A41E6A8C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				83841E329EFB4371B58373C1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4985369AD2D249388FE7E61D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6352A0D36D364E6AB23D9FE4 /* ext_clipper */,
+				9A6630AA8B2F4230B151BC91 /* ext_convertUTF */,
+				97880F7D6162483CA185EE80 /* ext_edtaa3func */,
+				EB2E03C668D94014BC15D059 /* ext_md5 */,
+				A9B98980B30649B080D2026C /* ext_poly2tri */,
+				7E112262B0E04563BAADC433 /* ext_recast */,
+				3787F4F955B44F56B711178E /* ext_tinyxml2 */,
+				70CBBE033080445BAF254EE1 /* ext_unzip */,
+				AE9372F36C384E7C8E2DD9F0 /* ext_xxhash */,
+				284219A26AF545D4913446E4 /* ext_xxtea */,
+				86D2C67391794007BB334A36 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BCCCEF61C4E4E3BA5B65AB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F98378A81A4044FE8E86AB7D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		606903D9F2C648C58783B56E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE0F73BC404F4BFEA676E516 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		620ACACE66764CC6B791EA94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F59BD0A6298E4645844C5740 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BC1C4464273421290DE7EF8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				48049C374ED64A1BB2CEF855 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6BD81AEEE2184697A63D0672 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC65CE55C5FB4CFE831D15A7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6CE6420496094B32A46B887A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		726853327BE940C9B2033D59 /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				419C378970BC4E04A41E6A8C /* Source Files */,
+				AED975AFB37F42F7BDBCDA48 /* Resources */,
+				10D15B42E7F94153B94C875E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		767D4B66628D40F99EE056B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2949B69628164A6B8AE5D515 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7907D47A518E4F87BAB0E1A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2322B739D751474390B5F165 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7FCCB4BC5E6147DBA7763FD6 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				6BC1C4464273421290DE7EF8 /* Source Files */,
+				B575A8CD2B5F4EB9849F5216 /* Resources */,
+				7627706292084D698D4C705B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		83A63D56259E405A83B5FB32 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				C47B50C1D61F468DA64B3E24 /* external */,
+				BD7327BDDA124418BE9470BB /* ext_recast */,
+				726853327BE940C9B2033D59 /* ext_tinyxml2 */,
+				7FCCB4BC5E6147DBA7763FD6 /* ext_xxhash */,
+				EC89A83AEDDF449DB55E66AA /* ext_xxtea */,
+				0C9AF3E33BB14036921B47AD /* ext_clipper */,
+				C97C4F88B76A400AABCB57C5 /* ext_edtaa3func */,
+				C0A243204CCE45DEA637D67C /* ext_convertUTF */,
+				CCDF524570864E24913AC3E6 /* ext_poly2tri */,
+				9217A5D5EE5C421E8C4DE72B /* ext_md5 */,
+				0AEBA5EDA2B0408D973ECF3D /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		9217A5D5EE5C421E8C4DE72B /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				086ACFD7961D4BF588E035B5 /* Source Files */,
+				5BCCCEF61C4E4E3BA5B65AB6 /* Resources */,
+				08F17D978CB841D695ACC318 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		9E60191D2EBF403EBDF7771F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2311A0864484303BB6999A8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A89A3CF07C0043AB9E692489 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8122E260074145279DD3DBA9 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AAE10CB963D846C3A0FB19EE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				25CFA8B1307F4CA2A6270C8C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AED975AFB37F42F7BDBCDA48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FD334C817C141B882D0803D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF5D9098882F49F08DAD9A27 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6CE6420496094B32A46B887A /* CMake Rules */,
+				DBF1AE396A0A4E1F935470E8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AFBADF24735E4BBFB7A765CB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D04CC87DE049CEAE76DD86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi.cpp */,
+				07A70BFC392B42C5B3B9FEDD /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi_mem.cpp */,
+				A6C8742FEC734364A3547218 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B575A8CD2B5F4EB9849F5216 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B64FB2EAA45B1861EDE42 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD63C7946AEA4F8FACEDE90E = {
+			isa = PBXGroup;
+			children = (
+				83A63D56259E405A83B5FB32 /* External */,
+				AF5D9098882F49F08DAD9A27 /* ALL_BUILD */,
+				4985369AD2D249388FE7E61D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD7327BDDA124418BE9470BB /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				2D282B3ECBA648AE97271746 /* Source Files */,
+				620ACACE66764CC6B791EA94 /* Resources */,
+				35C14181F82F48FAAD4EE1A1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		C0A243204CCE45DEA637D67C /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				1B0C00A8FA7541E2A42A35F5 /* Source Files */,
+				6BD81AEEE2184697A63D0672 /* Resources */,
+				4C1D46C2A94F44E2A2F64FC5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		C1E56D7CDCE64ED28C02818D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B8AC7D1DE2414423B7B12E86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C47B50C1D61F468DA64B3E24 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				AAE10CB963D846C3A0FB19EE /* Source Files */,
+				08A5D35C31BF47F9B98BE610 /* Resources */,
+				F8FBB7DAF91F44CEBF74F24F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		C97C4F88B76A400AABCB57C5 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				9E60191D2EBF403EBDF7771F /* Source Files */,
+				606903D9F2C648C58783B56E /* Resources */,
+				2228A2878E2A4017B0E65219 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		CCDF524570864E24913AC3E6 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				030C7B00B10C426A89D8E40B /* Source Files */,
+				7907D47A518E4F87BAB0E1A0 /* Resources */,
+				DE532E4C291245B0ACAB0062 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		D8CAD6C4E1FB47CBA27BA29C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76AECF9FCBAD49DCA97FCACF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC89A83AEDDF449DB55E66AA /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				3A98138AA3C947B19DBAA306 /* Source Files */,
+				767D4B66628D40F99EE056B0 /* Resources */,
+				1BEA6FAA82214FE9A60B7912 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38B1B16DFC514F82AC4C6B8F /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9566DDFB2BA482BB2A18567 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				3D3541102C914B19817EFF75 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 7E112262B0E04563BAADC433 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D981981079E4DE3B6AFFDD4 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F3012793EB47F3AF4E6D76 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				09225DFD13634E66A2D05ADF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = 3787F4F955B44F56B711178E /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		62466E94C17E465C8E78DB5F /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5893FA3B07BD46B4A6C0AE36 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				1CBD486944784736A25297F1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = EB2E03C668D94014BC15D059 /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		74A539FBEF9E4113BE77E690 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B283836F99AF432C8C5D8916 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				7BB19B0EE7E94099ABF2FA5A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = 284219A26AF545D4913446E4 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A6D610680CE4958A6299C92 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC136525AC274B3E95D096B7 /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				1E5AFCCA618548959E84579C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 6352A0D36D364E6AB23D9FE4 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A987952D3DDC47F7ABDF6608 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA69A9CBBEC74433B416C352 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				91BF1EBB57CE46B8BE778D66 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = 97880F7D6162483CA185EE80 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D817FB75337140539050B346 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428F84F92B424F168C9BFEFD /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				FADBA9FB00A346A58CA73150 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 9A6630AA8B2F4230B151BC91 /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DAF27639B4A4444D8C8F57AA /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D664665D3C447DAF60B527 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				74AE04A0B0A1495F88863932 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = A9B98980B30649B080D2026C /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7C7FAF36CC94EA1A6F9481F /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F502BE134DA04B49A42B8B06 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				64BB03EEDCD54D7BAF1FA31C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 70CBBE033080445BAF254EE1 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ECF1FB79179C42939F979DF4 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171A15167DA94973B593E288 /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				C50D47DAA4034C5EA9F75851 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF85BC0563C48E4B327DA19 /* PBXTargetDependency */,
+				7398EC8B3FC84B96BBA8E019 /* PBXTargetDependency */,
+				0E98AA0C380D4769835810DA /* PBXTargetDependency */,
+				8691DF6BB9E24F05A7BA9092 /* PBXTargetDependency */,
+				F5B16A4645774B64A2D211C1 /* PBXTargetDependency */,
+				4D35797DDC4D4869AC855125 /* PBXTargetDependency */,
+				E6AC4217F8F64F459E1C98B8 /* PBXTargetDependency */,
+				77B928132FE04466B17F45B1 /* PBXTargetDependency */,
+				11201877308E490595A672D8 /* PBXTargetDependency */,
+				A55E685A21C44FA0B32F5EF2 /* PBXTargetDependency */,
+				5C5FA42F849E46F0B5AEFE8D /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = 86D2C67391794007BB334A36 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCF82BD3CBCB496785616784 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23EB4DAE73144A2A9D565077 /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				F4C2CAA931794D8BB88EC5AF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = AE9372F36C384E7C8E2DD9F0 /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3979987C17F44B83AFE1A11D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 287219340B2B4850BFF8159B /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3397AC81ADDB4C86A7E19ED0 /* Debug */,
+				F579199EBB52434D8F5E1891 /* Release */,
+				28225B8CEA4945B2B632CBDC /* MinSizeRel */,
+				FC33110ADEED4D47A8247E4E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = BD63C7946AEA4F8FACEDE90E;
+			projectDirPath = ../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				8977AEC588E242E6A76CE604 /* ALL_BUILD */,
+				B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */,
+				8A6D610680CE4958A6299C92 /* ext_clipper */,
+				D817FB75337140539050B346 /* ext_convertUTF */,
+				A987952D3DDC47F7ABDF6608 /* ext_edtaa3func */,
+				62466E94C17E465C8E78DB5F /* ext_md5 */,
+				DAF27639B4A4444D8C8F57AA /* ext_poly2tri */,
+				38B1B16DFC514F82AC4C6B8F /* ext_recast */,
+				5D981981079E4DE3B6AFFDD4 /* ext_tinyxml2 */,
+				E7C7FAF36CC94EA1A6F9481F /* ext_unzip */,
+				FCF82BD3CBCB496785616784 /* ext_xxhash */,
+				74A539FBEF9E4113BE77E690 /* ext_xxtea */,
+				ECF1FB79179C42939F979DF4 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67CBD8C47FE14AE4B935D626 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		765CA832788F49579E4C6BDA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external -f /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		BC21A502AB014362877D94FA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external -f /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D0674D3DD2AD40BE91C3A89A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09225DFD13634E66A2D05ADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A838403AE647EFA3ECF873 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBD486944784736A25297F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CEA91A420E423F8C583924 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5AFCCA618548959E84579C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BB003006934DD1A900B8B0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3541102C914B19817EFF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC33DFF3F0EC47B9B747D3AB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				E8FAE5E169964B9582B42BA7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				974CA4C557D54124B8AA8363 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				69A5D28E4913442194161E37 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				7DC2EE653154424CAB49A279 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				AFCBFB6AAF6647A8A60AC7A9 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				48EC961E17284E44B3AB02A1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				CFF4598691CE4A3BBF777BFB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				AD3444523E04414DA2CFD111 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				7D5870CF800E4CF0ABC33E43 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				89AED4384CC449F1B3D26A1A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				A6FCCB8E92C74B87985EA456 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				2FD992E1494B4F26A86425DA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				8EBB89AC45E748F0BE4C73F8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				74181E6EEB9E48E39EF66C39 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				C0CBFC9008BA4D599BDA2B89 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				22C2B7984F694497B05E8EC5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BB03EEDCD54D7BAF1FA31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68712F6B3D1E4C3CB5BE4813 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi.cpp */,
+				6548119CC1BC4F45A7AF7063 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/ioapi_mem.cpp */,
+				4CF08404FE1D4279BBDB53D3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AE04A0B0A1495F88863932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2575CDC5AF914E1994629D2E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/common/shapes.cc */,
+				259687495B8F48D18F365D86 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				9E083C216C1346EA802CC4D5 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				78F66FA849484DE48C178F6B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				C34113C0AAD74E43BA096674 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB19B0EE7E94099ABF2FA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4FF6D5FF7C4413B493B45C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BF1EBB57CE46B8BE778D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEFCD1CF2B3484AB6F489C8 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50D47DAA4034C5EA9F75851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E545FEA9F14ED0821A1521 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C2CAA931794D8BB88EC5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCA221D8AF34230B6513EAB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADBA9FB00A346A58CA73150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698EADEE4EF34B7280BF5378 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				073D17038A294E0EB7AB7787 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BF85BC0563C48E4B327DA19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */;
+			targetProxy = 6B7FD136732B43CDA7E10B60 /* PBXContainerItemProxy */;
+		};
+		0E98AA0C380D4769835810DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D981981079E4DE3B6AFFDD4 /* ext_tinyxml2 */;
+			targetProxy = 8BD75861F07B47C4962A1D8B /* PBXContainerItemProxy */;
+		};
+		11201877308E490595A672D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF27639B4A4444D8C8F57AA /* ext_poly2tri */;
+			targetProxy = A882D21DCE064E81804778AB /* PBXContainerItemProxy */;
+		};
+		1157BB1679894D058FEEC2BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF82BD3CBCB496785616784 /* ext_xxhash */;
+			targetProxy = 6060C2FC83A4459F87DBF37F /* PBXContainerItemProxy */;
+		};
+		17025EA0D0A3446C9EADEEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF1FB79179C42939F979DF4 /* external */;
+			targetProxy = C775E8B717F2410FAC37BEB1 /* PBXContainerItemProxy */;
+		};
+		2B4424F74AC74D5AA8DBC2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C7FAF36CC94EA1A6F9481F /* ext_unzip */;
+			targetProxy = 521C4CF6BB2E4BFE918DC56D /* PBXContainerItemProxy */;
+		};
+		32C9D531460742AEA78C71EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A987952D3DDC47F7ABDF6608 /* ext_edtaa3func */;
+			targetProxy = 359BC3A4FBA74533A80D741F /* PBXContainerItemProxy */;
+		};
+		43B3A2CF1DF84B91AD047E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B1B16DFC514F82AC4C6B8F /* ext_recast */;
+			targetProxy = F8A8C11C742E41F380D1DADE /* PBXContainerItemProxy */;
+		};
+		44641146725546E39AACBF37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D817FB75337140539050B346 /* ext_convertUTF */;
+			targetProxy = DA1EFDC81E71450B9213ADAB /* PBXContainerItemProxy */;
+		};
+		4D35797DDC4D4869AC855125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6D610680CE4958A6299C92 /* ext_clipper */;
+			targetProxy = 42409574C72F4652BD8123C3 /* PBXContainerItemProxy */;
+		};
+		5C5FA42F849E46F0B5AEFE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7C7FAF36CC94EA1A6F9481F /* ext_unzip */;
+			targetProxy = 52AB28FB37E941D2997A4E25 /* PBXContainerItemProxy */;
+		};
+		7398EC8B3FC84B96BBA8E019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B1B16DFC514F82AC4C6B8F /* ext_recast */;
+			targetProxy = 58F207B07F234CB9A7BF9EC5 /* PBXContainerItemProxy */;
+		};
+		77B928132FE04466B17F45B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D817FB75337140539050B346 /* ext_convertUTF */;
+			targetProxy = DDCC6915A71E446180199B59 /* PBXContainerItemProxy */;
+		};
+		7CC27D5013464C82A6FAC611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF27639B4A4444D8C8F57AA /* ext_poly2tri */;
+			targetProxy = FDE4C401A7CA42ADAA3CB27F /* PBXContainerItemProxy */;
+		};
+		8691DF6BB9E24F05A7BA9092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCF82BD3CBCB496785616784 /* ext_xxhash */;
+			targetProxy = E09706D9A678450F895E924B /* PBXContainerItemProxy */;
+		};
+		9AC682190CD84AD6856811F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62466E94C17E465C8E78DB5F /* ext_md5 */;
+			targetProxy = 57B2D71B893448F1BC9DF254 /* PBXContainerItemProxy */;
+		};
+		A55E685A21C44FA0B32F5EF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62466E94C17E465C8E78DB5F /* ext_md5 */;
+			targetProxy = CF68917AD8544A62BAE42563 /* PBXContainerItemProxy */;
+		};
+		AC5BC32D980E42838DB1E1CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D981981079E4DE3B6AFFDD4 /* ext_tinyxml2 */;
+			targetProxy = 0085488772834BD5B02C808C /* PBXContainerItemProxy */;
+		};
+		AD5340C8C157414FAEEC108B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A539FBEF9E4113BE77E690 /* ext_xxtea */;
+			targetProxy = FF655BEACA614F14BE7E8C53 /* PBXContainerItemProxy */;
+		};
+		BAA4C0D31CA44E0582E2FB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A6D610680CE4958A6299C92 /* ext_clipper */;
+			targetProxy = 86398DE7C01246FB8EF394FD /* PBXContainerItemProxy */;
+		};
+		D3F45088FF764FAAB6940FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */;
+			targetProxy = 132E0E3F6DA241D3B45B4EEF /* PBXContainerItemProxy */;
+		};
+		E6AC4217F8F64F459E1C98B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A987952D3DDC47F7ABDF6608 /* ext_edtaa3func */;
+			targetProxy = 8C63B14317DE449592EB646C /* PBXContainerItemProxy */;
+		};
+		F5B16A4645774B64A2D211C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A539FBEF9E4113BE77E690 /* ext_xxtea */;
+			targetProxy = B88562F421B94CA9A0A94188 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019E446DF54D46348971964D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		03EF5C721DBE47EB98237C45 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/Box2D/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/chipmunk/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/freetype2/include/ios/freetype2,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include/bullet,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/jpeg/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/openssl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/uv/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/webp/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/websockets/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/curl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/png/include/ios,"/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		06424006CF5C4C2BA4487FC2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		093B499C777B4F8C97233B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		13A5DA96148541B8BC1929DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		183DD04B50EA42AD9172FBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1E0FD2C1BBB34DFB8438BFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/Box2D/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/chipmunk/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/freetype2/include/ios/freetype2,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include/bullet,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/jpeg/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/openssl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/uv/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/webp/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/websockets/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/curl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/png/include/ios,"/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2490E952A0B142B2A39A6CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		282137343DFD4027ADF69538 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2852CEF891CF40DEBAEF5FA2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/Box2D/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/chipmunk/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/freetype2/include/ios/freetype2,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include/bullet,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/jpeg/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/openssl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/uv/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/webp/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/websockets/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/curl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/png/include/ios,"/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		292EAEC392404E3582266975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		297A6DA45A2948388929A453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/build";
+			};
+			name = Release;
+		};
+		2A515F4BFDD448D5958A5D84 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		32F91047FF6049B5BB587185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/build";
+			};
+			name = Debug;
+		};
+		33B4FD37DBF94297979748A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3504E56586E24F5E802501FF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3C18401BB9DE4F358E911757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4008AF46B85549019B11843F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		419A6E5A9D6448E385EB54ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		41DEA72014824E7B9DB7C099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		44254EC9BFC5421BB33C87D4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		468922F391E143E5ADFDE2EF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		48671743D21F4D9185076E5F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4AC63AAD948546CA90D18C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4AE71A18AB29481A872388EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4EE2110485724B66AEA9F528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5532E7328B934DF3B8379986 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/build";
+			};
+			name = MinSizeRel;
+		};
+		5976AB23D1FC4683AA1F4F56 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		649EF58884214E41A193AB30 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		658EDB2D72F84B209EC10395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6AFBAE4CC5B542F4BFB69C1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7120A56386EF427BAFEE19DC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		75DC23F128CE474F970D19E3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7C1FB71F5D124576B29E59D7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7CC4A6E96FB84694925D060B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		867AE9EA06264AB49BE16570 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8682868A21CB48719DF0AFDB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		89A58AA0AB724316838237DF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8C75B9DCF6114C4BA7785F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9257C59ADFAF425DB6307875 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9C0B65CFF8F346319C7D95CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/Box2D/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/chipmunk/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/freetype2/include/ios/freetype2,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/bullet/include/bullet,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/jpeg/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/openssl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/uv/include,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/webp/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/websockets/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/curl/include/ios,/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/png/include/ios,"/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/glsl-optimizer/include");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AA0EC3784B0F4319BDCB9795 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ACEBEB20C2524A64A818CA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ADEB4A891AB34F18A2DB2D69 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/md5/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B803509630F4401E939BBABA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/ConvertUTF/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CABED1B818154CC0BE374705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CD0C24C70F874B199B967A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxtea/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D4D9554D2E474638B8092341 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DCFC3CEE3D6A4D9C83F0C0AF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E2A7F17F5EA14FDA89F73E42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/xxhash/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E2D66D6AD14D4540AE007E1E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/clipper/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E6CF5A94D097410BA6522507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/edtaa3func/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EDD4A252FA8D418AB56117F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F1C65559EA324A08AE6DF8A2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/poly2tri/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F85C2B3BBA2644EC9F4875A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/tinyxml2/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FD28D7D44DF64D968E2497E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/unzip/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14D664665D3C447DAF60B527 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4008AF46B85549019B11843F /* Debug */,
+				419A6E5A9D6448E385EB54ED /* Release */,
+				89A58AA0AB724316838237DF /* MinSizeRel */,
+				F1C65559EA324A08AE6DF8A2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		171A15167DA94973B593E288 /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0B65CFF8F346319C7D95CD /* Debug */,
+				1E0FD2C1BBB34DFB8438BFDD /* Release */,
+				2852CEF891CF40DEBAEF5FA2 /* MinSizeRel */,
+				03EF5C721DBE47EB98237C45 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		23EB4DAE73144A2A9D565077 /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A7F17F5EA14FDA89F73E42 /* Debug */,
+				093B499C777B4F8C97233B09 /* Release */,
+				867AE9EA06264AB49BE16570 /* MinSizeRel */,
+				649EF58884214E41A193AB30 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		287219340B2B4850BFF8159B /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F91047FF6049B5BB587185 /* Debug */,
+				297A6DA45A2948388929A453 /* Release */,
+				5532E7328B934DF3B8379986 /* MinSizeRel */,
+				282137343DFD4027ADF69538 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		428F84F92B424F168C9BFEFD /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183DD04B50EA42AD9172FBB2 /* Debug */,
+				658EDB2D72F84B209EC10395 /* Release */,
+				9257C59ADFAF425DB6307875 /* MinSizeRel */,
+				B803509630F4401E939BBABA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5893FA3B07BD46B4A6C0AE36 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A5DA96148541B8BC1929DD /* Debug */,
+				41DEA72014824E7B9DB7C099 /* Release */,
+				ADEB4A891AB34F18A2DB2D69 /* MinSizeRel */,
+				75DC23F128CE474F970D19E3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CE01208DF6E46789DAD6597 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C75B9DCF6114C4BA7785F84 /* Debug */,
+				CABED1B818154CC0BE374705 /* Release */,
+				3504E56586E24F5E802501FF /* MinSizeRel */,
+				D4D9554D2E474638B8092341 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BE74B05CE05444F97972F33 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B4FD37DBF94297979748A3 /* Debug */,
+				ACEBEB20C2524A64A818CA5F /* Release */,
+				06424006CF5C4C2BA4487FC2 /* MinSizeRel */,
+				2A515F4BFDD448D5958A5D84 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B283836F99AF432C8C5D8916 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0C24C70F874B199B967A59 /* Debug */,
+				4AC63AAD948546CA90D18C39 /* Release */,
+				7120A56386EF427BAFEE19DC /* MinSizeRel */,
+				7C1FB71F5D124576B29E59D7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA69A9CBBEC74433B416C352 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6CF5A94D097410BA6522507 /* Debug */,
+				3C18401BB9DE4F358E911757 /* Release */,
+				44254EC9BFC5421BB33C87D4 /* MinSizeRel */,
+				8682868A21CB48719DF0AFDB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC136525AC274B3E95D096B7 /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC4A6E96FB84694925D060B /* Debug */,
+				4EE2110485724B66AEA9F528 /* Release */,
+				DCFC3CEE3D6A4D9C83F0C0AF /* MinSizeRel */,
+				E2D66D6AD14D4540AE007E1E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F502BE134DA04B49A42B8B06 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD28D7D44DF64D968E2497E6 /* Debug */,
+				2490E952A0B142B2A39A6CBA /* Release */,
+				AA0EC3784B0F4319BDCB9795 /* MinSizeRel */,
+				48671743D21F4D9185076E5F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6F3012793EB47F3AF4E6D76 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85C2B3BBA2644EC9F4875A3 /* Debug */,
+				292EAEC392404E3582266975 /* Release */,
+				6AFBAE4CC5B542F4BFB69C1E /* MinSizeRel */,
+				468922F391E143E5ADFDE2EF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9566DDFB2BA482BB2A18567 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AE71A18AB29481A872388EB /* Debug */,
+				EDD4A252FA8D418AB56117F8 /* Release */,
+				019E446DF54D46348971964D /* MinSizeRel */,
+				5976AB23D1FC4683AA1F4F56 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3979987C17F44B83AFE1A11D /* Project object */;
+}

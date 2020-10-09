@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8977AEC588E242E6A76CE604 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04589A8135814229B79C6D15 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				86439C97963A44DDB11AB369 /* CMake Rules */,
+			);
+			dependencies = (
+				B0624DBD1BFC4A42B6601E49 /* PBXTargetDependency */,
+				093B669C49074E36A9A6694E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CF80515446FF443A936954F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1C26B73CDF9F42F3965DF580 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0745F3379B4649699C9D609F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = 9218DB92903441178FAD7810 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		149DD3C2DBF245E48583CCF2 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = FE4991B2632C4860874E64EC /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		2572C0466B4945F68D84F3B0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = D644E61E71084E0EA164F41E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		260DE1BDAA874A0F9EF117CB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 4AB2A962408C4760B5A0EC6A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		419C93CFBB2441A29F295CF4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7D6FD705EBBB4A80A3F6D6F0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */; };
+		49EF75F57FB846B78B7CCD0E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = C88C301A6F044FCA86B17534 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		51D4CCFC4676474C8101FA2E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = D60625C5E25E4479924F6DD3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		65A2008E2CC848F3A5DA200B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = D430860791234502874D9E3A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		6DF7912521AC47F3B39B86F0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = CC63F5FC6E6F44ABB8031BBB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		72989628515A45C3BB95B442 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = EC00E1DAEC1F4A2D944024CA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */; };
+		7E8C9B4B67624F4FBFBB54FA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = F26E0501B4554A03A0FA56C4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		94C3DF2A847A4DDA98C05323 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 0388FFCE7F3C4D4CA2816A7D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		AB11CB06326241D494DCCF85 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 4F55EE1D25084142A6116A1F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		CA076DC726674F2EB990FDC1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 71ACDE2C73EB41D5B2F49E8B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		DC43A3892E3642229DDFD1E7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 04D457A49E544CC2897D3446 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		DC742BF90CB2441EA4930EC3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 12491412DD9E4B42A34FE13A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		E5C5767C401340E1AF4DD4FF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = E41DB0D0843D48E984CCEF2D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		E6683AECB8CD4068B0D54C69 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = AAB8C24A85FE43B6AEB94A5C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		E9FAFE7954D4403D8B9513F4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 01BD96A12D644E1DB490A424 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		15DCB52C3B9B4E049B5A1B7D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		47A19702C5F94DDBA242507E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6F0F02CD597745BAA218BCD5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B22BCB21D57D428DACB2486B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		720EC68FD3FB42DEBEBB40ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35738E1C4704AB1913817AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B1B16DFC514F82AC4C6B8F;
+			remoteInfo = ext_recast;
+		};
+		74E800BB6757485DB963515B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35738E1C4704AB1913817AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C73A0356B24D3D8043C6DD;
+			remoteInfo = ZERO_CHECK;
+		};
+		C378987EBC4140E691C73FB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35738E1C4704AB1913817AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C73A0356B24D3D8043C6DD;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BD96A12D644E1DB490A424 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		0388FFCE7F3C4D4CA2816A7D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		04D457A49E544CC2897D3446 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		12491412DD9E4B42A34FE13A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../../ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		4AB2A962408C4760B5A0EC6A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		4F55EE1D25084142A6116A1F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		5A82F950D80844B4897B77B7 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		71ACDE2C73EB41D5B2F49E8B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		78ABA26A380D4419968BC11C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7D6FD705EBBB4A80A3F6D6F0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9218DB92903441178FAD7810 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		AAB8C24A85FE43B6AEB94A5C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		C88C301A6F044FCA86B17534 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		CC63F5FC6E6F44ABB8031BBB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		D430860791234502874D9E3A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		D60625C5E25E4479924F6DD3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		D644E61E71084E0EA164F41E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		E41DB0D0843D48E984CCEF2D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		EC00E1DAEC1F4A2D944024CA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		F26E0501B4554A03A0FA56C4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		FE4991B2632C4860874E64EC /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		15AD0E1738D9480D9A0AFA3E /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				F827CB57BE8E4F51A01095D4 /* Source Files */,
+				D37F28EA8FE24637908B9A03 /* Resources */,
+				7D6FD705EBBB4A80A3F6D6F0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		1C1AA6D449C6458AB94F6A80 = {
+			isa = PBXGroup;
+			children = (
+				BE2AF998D21A45DD8788EFFF /* External */,
+				5365C30099FC4F99ACFC6A18 /* ALL_BUILD */,
+				527FA5B15A4B497BA4347B87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEC11E17D694324B1475C91 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		527FA5B15A4B497BA4347B87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A82F950D80844B4897B77B7 /* ext_recast */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5365C30099FC4F99ACFC6A18 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4FEC11E17D694324B1475C91 /* CMake Rules */,
+				78ABA26A380D4419968BC11C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		BE2AF998D21A45DD8788EFFF /* External */ = {
+			isa = PBXGroup;
+			children = (
+				15AD0E1738D9480D9A0AFA3E /* ext_recast */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		D37F28EA8FE24637908B9A03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12491412DD9E4B42A34FE13A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F827CB57BE8E4F51A01095D4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D644E61E71084E0EA164F41E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				71ACDE2C73EB41D5B2F49E8B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				AAB8C24A85FE43B6AEB94A5C /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				0388FFCE7F3C4D4CA2816A7D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				D60625C5E25E4479924F6DD3 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				01BD96A12D644E1DB490A424 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				4AB2A962408C4760B5A0EC6A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				CC63F5FC6E6F44ABB8031BBB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				C88C301A6F044FCA86B17534 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				04D457A49E544CC2897D3446 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				E41DB0D0843D48E984CCEF2D /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				F26E0501B4554A03A0FA56C4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				9218DB92903441178FAD7810 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				FE4991B2632C4860874E64EC /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				D430860791234502874D9E3A /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				4F55EE1D25084142A6116A1F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				EC00E1DAEC1F4A2D944024CA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38B1B16DFC514F82AC4C6B8F /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF7164C90234188A77A231E /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				9B8E537D64C942EF9684EB8B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E9AD44E2C848F59FDA68B1 /* PBXTargetDependency */,
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 5A82F950D80844B4897B77B7 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35738E1C4704AB1913817AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = E9418C5C32A54D8380DB0785 /* Build configuration list for PBXProject "recast" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				15DCB52C3B9B4E049B5A1B7D /* Debug */,
+				47A19702C5F94DDBA242507E /* Release */,
+				B22BCB21D57D428DACB2486B /* MinSizeRel */,
+				6F0F02CD597745BAA218BCD5 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1C1AA6D449C6458AB94F6A80;
+			projectDirPath = ../../../../cocos2d/external/recast;
+			projectRoot = "";
+			targets = (
+				8977AEC588E242E6A76CE604 /* ALL_BUILD */,
+				B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */,
+				38B1B16DFC514F82AC4C6B8F /* ext_recast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C26B73CDF9F42F3965DF580 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast -f /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		86439C97963A44DDB11AB369 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast -f /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		991FF06A35694E249E55E19E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C12777EFE0064F9099E9567C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8E537D64C942EF9684EB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2572C0466B4945F68D84F3B0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				CA076DC726674F2EB990FDC1 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				E6683AECB8CD4068B0D54C69 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				94C3DF2A847A4DDA98C05323 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				51D4CCFC4676474C8101FA2E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				E9FAFE7954D4403D8B9513F4 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				260DE1BDAA874A0F9EF117CB /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				6DF7912521AC47F3B39B86F0 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				49EF75F57FB846B78B7CCD0E /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				DC43A3892E3642229DDFD1E7 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				E5C5767C401340E1AF4DD4FF /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				7E8C9B4B67624F4FBFBB54FA /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				0745F3379B4649699C9D609F /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				149DD3C2DBF245E48583CCF2 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				65A2008E2CC848F3A5DA200B /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				AB11CB06326241D494DCCF85 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				72989628515A45C3BB95B442 /* /Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093B669C49074E36A9A6694E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B1B16DFC514F82AC4C6B8F /* ext_recast */;
+			targetProxy = 720EC68FD3FB42DEBEBB40ED /* PBXContainerItemProxy */;
+		};
+		79E9AD44E2C848F59FDA68B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */;
+			targetProxy = 74E800BB6757485DB963515B /* PBXContainerItemProxy */;
+		};
+		B0624DBD1BFC4A42B6601E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5C73A0356B24D3D8043C6DD /* ZERO_CHECK */;
+			targetProxy = C378987EBC4140E691C73FB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036C2A9347D54F528914D5C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/build";
+			};
+			name = MinSizeRel;
+		};
+		117609A9C1E04E679E4D77B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1AF2D87A08E94F6A9DD8ACAF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "       -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		24BD5028754948EDBD73D619 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3624C91ACEBA4780931CE27E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "    -DNDEBUG '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3A88CD75C3304931A331E140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/cocos2d/external/recast/..);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "   '-std=gnu99' ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5462F62CFA5942849E92DD6F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		626EDF13B6204AACBFB5D2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6BF3340DF9284EE18E2047BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		743776DD4C1B49E7B999E94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/build";
+			};
+			name = Debug;
+		};
+		8D3D4E684CA2441B90842030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		948F097ACE874B949073A544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9D9CB17729C24C4C89051C80 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/build";
+			};
+			name = RelWithDebInfo;
+		};
+		CBA6D6E49F9B46E2B96875DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CD970392DD9B4238A68E947B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast/build";
+			};
+			name = Release;
+		};
+		E36D669EED074C56AF6A0EF8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dbaekajnr/Projects/FairyGUI/FairyGUI/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04589A8135814229B79C6D15 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3D4E684CA2441B90842030 /* Debug */,
+				626EDF13B6204AACBFB5D2FE /* Release */,
+				CBA6D6E49F9B46E2B96875DE /* MinSizeRel */,
+				E36D669EED074C56AF6A0EF8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AEF7164C90234188A77A231E /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A88CD75C3304931A331E140 /* Debug */,
+				117609A9C1E04E679E4D77B0 /* Release */,
+				3624C91ACEBA4780931CE27E /* MinSizeRel */,
+				1AF2D87A08E94F6A9DD8ACAF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CF80515446FF443A936954F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF3340DF9284EE18E2047BC /* Debug */,
+				948F097ACE874B949073A544 /* Release */,
+				5462F62CFA5942849E92DD6F /* MinSizeRel */,
+				24BD5028754948EDBD73D619 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9418C5C32A54D8380DB0785 /* Build configuration list for PBXProject "recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743776DD4C1B49E7B999E94A /* Debug */,
+				CD970392DD9B4238A68E947B /* Release */,
+				036C2A9347D54F528914D5C0 /* MinSizeRel */,
+				9D9CB17729C24C4C89051C80 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B35738E1C4704AB1913817AE /* Project object */;
+}
